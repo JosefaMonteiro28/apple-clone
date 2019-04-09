@@ -20,7 +20,7 @@ body {
     width: 100%;
     position: absolute;
     top: 0;
-    background: black;
+    background: #000;
     opacity: 0.8;
     height: 50px; }
     body header .menu {
@@ -41,3 +41,95 @@ body {
             height: 20px;
             margin-left: -810px;
             opacity: 0.3; }
+  body .body {
+    max-width: 100%;
+    color: black; }
+    body .body .main-banner-inner {
+      position: relative;
+      text-align: center; }
+      body .body .main-banner-inner .banner1 {
+        margin-top: 50px;
+        background: #dddddd;
+        height: 260px;
+        width: 100%; }
+        body .body .main-banner-inner .banner1 .text-area {
+          position: relative;
+          top: 60px; }
+          body .body .main-banner-inner .banner1 .text-area h2 {
+            line-height: 0.5em;
+            font-size: 24pt; }
+          body .body .main-banner-inner .banner1 .text-area p {
+            line-height: 1.5em;
+            text-decoration: none;
+            font-size: 15pt; }
+            body .body .main-banner-inner .banner1 .text-area p a {
+              line-height: 2.2em;
+              text-decoration: none;
+              color: #0000ff; }
+      body .body .main-banner-inner .banner2 {
+        margin-top: 8px;
+        background: #dddddd;
+        height: 622px;
+        width: 100%; }
+        body .body .main-banner-inner .banner2 .text-area {
+          position: relative;
+          top: 60px; }
+          body .body .main-banner-inner .banner2 .text-area h2 {
+            line-height: 0.5em;
+            font-size: 24pt; }
+          body .body .main-banner-inner .banner2 .text-area p {
+            line-height: 1.5em;
+            text-decoration: none;
+            font-size: 15pt; }
+            body .body .main-banner-inner .banner2 .text-area p a {
+              line-height: 2.2em;
+              text-decoration: none;
+              color: #0000ff; }
+        body .body .main-banner-inner .banner2 img {
+          margin-top: 40px; }
+      body .body .main-banner-inner .banner3 {
+        margin-top: 8px;
+        background: #dddddd;
+        height: 622px;
+        width: 100%; }
+        body .body .main-banner-inner .banner3 .text-area {
+          position: relative;
+          top: 60px; }
+          body .body .main-banner-inner .banner3 .text-area h2 {
+            line-height: 0.5em;
+            font-size: 24pt; }
+          body .body .main-banner-inner .banner3 .text-area p {
+            line-height: 1.5em;
+            text-decoration: none;
+            font-size: 15pt; }
+            body .body .main-banner-inner .banner3 .text-area p a {
+              line-height: 2.2em;
+              text-decoration: none;
+              color: #0000ff; }
+        body .body .main-banner-inner .banner3 img {
+          margin-top: 40px;
+          width: 500px;
+          height: 393px; }
+      body .body .main-banner-inner .banner4 {
+        margin-top: 8px;
+        background: #dddddd;
+        height: 622px;
+        width: 100%; }
+        body .body .main-banner-inner .banner4 .text-area {
+          position: relative;
+          top: 60px; }
+          body .body .main-banner-inner .banner4 .text-area h2 {
+            line-height: 0.5em;
+            font-size: 24pt; }
+          body .body .main-banner-inner .banner4 .text-area p {
+            line-height: 1.5em;
+            text-decoration: none;
+            font-size: 15pt; }
+            body .body .main-banner-inner .banner4 .text-area p a {
+              line-height: 2.2em;
+              text-decoration: none;
+              color: #0000ff; }
+        body .body .main-banner-inner .banner4 img {
+          margin-top: 40px;
+          width: 500px;
+          height: 393px; }
