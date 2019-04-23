@@ -1,135 +1,69 @@
-body {
-  font-family: Arial, Helvetica, sans-serif; }
+*{ margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: 'Times New Roman', Times, serif;}
+nav, ul{ list-style: none; }
+a{ text-decoration: none; cursor: pointer; opacity: 0.8;}
 
-html, body, ol, ul, li, form, fieldset, legend, img {
-  margin: 0;
-  padding: 0; }
+body { padding: 0; font-family: sans-serif;}
+nav{width: 100%; background-color: #2d3436; height: 50px; text-align: center;}
+ul{width: 80%; margin: 0 auto; padding: 0;}
+ul li{display: inline-block; padding: 20px; }
+ul img{ width: 17px; height: 17;}
+/*ul img:hover{opacity: 2;}*/
+ul li a{ color: #fff;}
+ul li a:hover{ opacity: 2;}
+.toggle{width: 100%; padding: 10px 10px; background-color:#001f44; text-align: right; box-sizing: border-box; color: #fff; font-size: 30px;
+        display: none; }
+@media(max-width: 768px){
+  .toggle{display: block;}
+  ul{width: 100%; display: none;}
+  ul li{display: block; text-align: center;}
+  .active{display: block;}
+}
+.text-area{ background-color: #f5f6fa; text-align: center;  height: 150px; padding: 30px;}
+.text-area h1{font-size: 1.7rem;}
+.text-area p{font-size: 1.1rem; padding: 5px;}
+.text-area a{ color: #0000d1; }
+@media(max-width: 768px){
+  .text-area h1{font-size: 1.3rem;}
+  .text-area p{font-size: 1rem; padding: 5px;} 
+}
+.container .first-child{ background-color: #f5f6fa; text-align: center;  height: 500px; padding: 30px; margin: 10px 0;}
+.container .first-child h1{ font-size: 2.1rem;  }
+.container .first-child a{ color: #0000d1; font-size: 1rem; }
+.container .first-child img{ margin: 30px 0;}
+@media(max-width: 768px){
+  .container .first-child h1{ font-size: 1.5rem;  }
+  .container .first-child a{ font-size: .9rem; }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0; }
+}
+.container .second-child{ background-color: #f5f6fa; text-align: center;  height: 500px; padding: 30px; margin: 10px 0;}
+.container .second-child h1{ font-size: 2.1rem;  }
+.container .second-child p{ font-size: 1.2rem;}
+.container .second-child a{ color: #0000d1; font-size: 1rem; padding: 5px;}
+.container .second-child img{ margin: 30px 0; width: 370px; height: 340px;}
+@media(max-width: 768px){
+  .container .second-child h1{ font-size: 1.5rem;  }
+  .container .second-child p{ font-size: 1rem;}
+  .container .first-child a{  font-size: .9rem; }
+ 
+}
+.container .third-child{ background-color: #f5f6fa; text-align: center;  height: 500px; padding: 30px; margin: 10px 0;}
+.container .third-child h1{ font-size: 2.1rem;  }
+.container .third-child p{ font-size: 1.2rem;}
+.container .third-child a{ color: #0000d1; font-size: 1rem; padding: 5px;}
+.container .third-child img{ margin: 30px 0; height: 300px; width:160px;}
+@media(max-width: 768px){
+.container .third-child h1{ font-size: 1.5rem;  }
+.container .third-child p{ font-size: 1rem;}
+.container .third-child a{font-size: .9rem;}
+}
 
-fieldset, img {
-  border: 0; }
-
-li {
-  list-style: none; }
-
-body {
-  width: 100%; }
-  body header {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    background: #000;
-    opacity: 0.8;
-    height: 50px; }
-    body header .menu {
-      position: relative;
-      margin-left: 350px; }
-      body header .menu ul {
-        margin-top: 10px; }
-        body header .menu ul li {
-          display: inline; }
-          body header .menu ul li a {
-            font-size: 1em;
-            color: white;
-            padding: 35px;
-            text-decoration: none; }
-          body header .menu ul li img {
-            position: relative;
-            width: 15px;
-            height: 20px;
-            margin-left: -810px;
-            opacity: 0.3; }
-  body .body {
-    max-width: 100%;
-    color: black; }
-    body .body .main-banner-inner {
-      position: relative;
-      text-align: center; }
-      body .body .main-banner-inner .banner1 {
-        margin-top: 50px;
-        background: #dddddd;
-        height: 260px;
-        width: 100%; }
-        body .body .main-banner-inner .banner1 .text-area {
-          position: relative;
-          top: 60px; }
-          body .body .main-banner-inner .banner1 .text-area h2 {
-            line-height: 0.5em;
-            font-size: 24pt; }
-          body .body .main-banner-inner .banner1 .text-area p {
-            line-height: 1.5em;
-            text-decoration: none;
-            font-size: 15pt; }
-            body .body .main-banner-inner .banner1 .text-area p a {
-              line-height: 2.2em;
-              text-decoration: none;
-              color: #0000ff; }
-      body .body .main-banner-inner .banner2 {
-        margin-top: 8px;
-        background: #dddddd;
-        height: 622px;
-        width: 100%; }
-        body .body .main-banner-inner .banner2 .text-area {
-          position: relative;
-          top: 60px; }
-          body .body .main-banner-inner .banner2 .text-area h2 {
-            line-height: 0.5em;
-            font-size: 24pt; }
-          body .body .main-banner-inner .banner2 .text-area p {
-            line-height: 1.5em;
-            text-decoration: none;
-            font-size: 15pt; }
-            body .body .main-banner-inner .banner2 .text-area p a {
-              line-height: 2.2em;
-              text-decoration: none;
-              color: #0000ff; }
-        body .body .main-banner-inner .banner2 img {
-          margin-top: 40px; }
-      body .body .main-banner-inner .banner3 {
-        margin-top: 8px;
-        background: #dddddd;
-        height: 622px;
-        width: 100%; }
-        body .body .main-banner-inner .banner3 .text-area {
-          position: relative;
-          top: 60px; }
-          body .body .main-banner-inner .banner3 .text-area h2 {
-            line-height: 0.5em;
-            font-size: 24pt; }
-          body .body .main-banner-inner .banner3 .text-area p {
-            line-height: 1.5em;
-            text-decoration: none;
-            font-size: 15pt; }
-            body .body .main-banner-inner .banner3 .text-area p a {
-              line-height: 2.2em;
-              text-decoration: none;
-              color: #0000ff; }
-        body .body .main-banner-inner .banner3 img {
-          margin-top: 40px;
-          width: 500px;
-          height: 393px; }
-      body .body .main-banner-inner .banner4 {
-        margin-top: 8px;
-        background: #dddddd;
-        height: 622px;
-        width: 100%; }
-        body .body .main-banner-inner .banner4 .text-area {
-          position: relative;
-          top: 60px; }
-          body .body .main-banner-inner .banner4 .text-area h2 {
-            line-height: 0.5em;
-            font-size: 24pt; }
-          body .body .main-banner-inner .banner4 .text-area p {
-            line-height: 1.5em;
-            text-decoration: none;
-            font-size: 15pt; }
-            body .body .main-banner-inner .banner4 .text-area p a {
-              line-height: 2.2em;
-              text-decoration: none;
-              color: #0000ff; }
-        body .body .main-banner-inner .banner4 img {
-          margin-top: 40px;
-          width: 500px;
-          height: 393px; }
+.containers2{width: 100%; height: 500px; margin: -15px -140px;  }
+.containers2 ul li { display: inline; } 
+.containers2 ul li .first-image{ background-color: #ff7979; width: 62%; margin: 0; height: 500px }
+.containers2 li .first-image img { width: 300px; height: 300px; margin: 20px 0; align-items: center;}
+.containers2 ul li .second-image{ background-color: #ff7979; width: 62%; margin:-500px -273px; height: 500px; float: right; }
+.containers2 li .second-image img { width: 300px; height: 300px;} 
+@media(max-width: 768px){
+  .containers2 ul li .first-image{ margin: 0; width: 20%;}
+  .containers2 ul li .second-image{  width: 200px;}
+}
